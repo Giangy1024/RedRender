@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "h:\\ueproject\\customshader\\plugins\\redredner\\source\\redredner\\private\\mycustomshaderparameters.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\redredner\\definitions.redredner.h",
+            "h:\\ueproject\\customshader\\intermediate\\build\\win64\\x64\\customshadereditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.cpp20.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,31 @@
+
+
+// RedShader.usf
+
+#include "/Engine/Private/Common.ush"
+#include "/Engine/Public/Platform.ush"
+
+
+float Time;
+float4 CustomColor;
+
+
+// 这里的结构和 FMyCustomShaderPS::FParameters 一一对应
+// (在 UE5 的 RDG ShaderParameter 中，会自动生成对应的常量缓冲)
+float4 MainPS() : SV_Target0
+{
+   
+    // 做一点简单的时间变化
+    float RedChannel = abs(sin(Time));
+    float GreenChannel = abs(sin(Time + 1.0));
+    float BlueChannel = abs(sin(Time + 2.0));
+
+    // 传入的颜色
+    float3 BaseColor = CustomColor.rgb;
+
+    // 最终颜色 = (时间变化 * 传入颜色)
+    float3 DynamicColor = BaseColor * float3(RedChannel, GreenChannel, BlueChannel);
+
+    // 输出
+    return float4(DynamicColor, CustomColor.a);
+}

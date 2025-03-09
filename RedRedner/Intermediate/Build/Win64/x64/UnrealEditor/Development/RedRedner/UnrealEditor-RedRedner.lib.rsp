@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-RedRedner.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"H:\UEProject\CustomShader\Intermediate\Build\Win64\x64\CustomShaderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"H:\UEProject\CustomShader\Plugins\RedRedner\Intermediate\Build\Win64\x64\UnrealEditor\Development\RedRedner\Module.RedRedner.cpp.obj"
+"H:\UEProject\CustomShader\Plugins\RedRedner\Intermediate\Build\Win64\x64\UnrealEditor\Development\RedRedner\MyShaderBlueprintLibrary.cpp.obj"
+"H:\UEProject\CustomShader\Plugins\RedRedner\Intermediate\Build\Win64\x64\UnrealEditor\Development\RedRedner\RedRedner.cpp.obj"
+"H:\UEProject\CustomShader\Plugins\RedRedner\Intermediate\Build\Win64\x64\UnrealEditor\Development\RedRedner\RedRenderRendering.cpp.obj"
+"H:\UEProject\CustomShader\Plugins\RedRedner\Intermediate\Build\Win64\x64\UnrealEditor\Development\RedRedner\Default.rc2.res"
+/OUT:"H:\UEProject\CustomShader\Plugins\RedRedner\Intermediate\Build\Win64\x64\UnrealEditor\Development\RedRedner\UnrealEditor-RedRedner.lib"

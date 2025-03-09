@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\redredner\\module.redredner.cpp",
+        "ProvidedModule": "",
+        "PCH": "h:\\ueproject\\customshader\\intermediate\\build\\win64\\x64\\customshadereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\redredner\\definitions.redredner.h",
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\unrealeditor\\inc\\redredner\\uht\\myshaderblueprintlibrary.gen.cpp",
+            "h:\\ueproject\\customshader\\plugins\\redredner\\source\\redredner\\public\\myshaderblueprintlibrary.h",
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\unrealeditor\\inc\\redredner\\uht\\myshaderblueprintlibrary.generated.h",
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\unrealeditor\\inc\\redredner\\uht\\redredner.init.gen.cpp",
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\redredner\\permoduleinline.gen.cpp",
+            "f:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

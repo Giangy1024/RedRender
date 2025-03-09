@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "h:\\ueproject\\customshader\\plugins\\redredner\\source\\redredner\\private\\redredner.cpp",
+        "ProvidedModule": "",
+        "PCH": "h:\\ueproject\\customshader\\intermediate\\build\\win64\\x64\\customshadereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "h:\\ueproject\\customshader\\plugins\\redredner\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\redredner\\definitions.redredner.h",
+            "h:\\ueproject\\customshader\\plugins\\redredner\\source\\redredner\\public\\redredner.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
